@@ -2,6 +2,8 @@
 ---
 An edited and formatted bspwm tutorial based on https://classicforum.manjaro.org/index.php?topic=18970.0
 
+To see the current progress of this project, see the [Current Progress](https://github.com/oliversandli/bspwm-tutorial/projects/1) kanban.
+
 I found this awesome (not to be confused with [awesome](https://github.com/awesomeWM/awesome)) tutorial by *Chrysostomus* on setting up [bspwm](https://github.com/baskerville/bspwm) and wanted to store it in a more permanent spot than a forum thread. Note that it was originally written in December 2014, so if you find any outdated information please submit an issue (see [Issues](#issues) below). Enjoy!
 
 ---
