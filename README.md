@@ -2,15 +2,16 @@
 ---
 An edited and formatted bspwm tutorial based on https://classicforum.manjaro.org/index.php?topic=18970.0
 
-I found this awesome (not to be confused with [awesome](https://github.com/awesomeWM/awesome)) tutorial by *Chrysostomus* on setting up [bspwm](https://github.com/baskerville/bspwm) and wanted to store it in a more permanent spot than a forum thread. Note that it was originally written in December 2014, so if you find any outdated information please submit an issue (see . Enjoy!
+I found this awesome (not to be confused with [awesome](https://github.com/awesomeWM/awesome)) tutorial by *Chrysostomus* on setting up [bspwm](https://github.com/baskerville/bspwm) and wanted to store it in a more permanent spot than a forum thread. Note that it was originally written in December 2014, so if you find any outdated information please submit an issue (see [Issues](#issues) below). Enjoy!
 
 ---
 
 ## TOC
 
-- [What Is It?](#what-is-it?)
+- [What Is It?](#what-is-it)
 - [Features](#features)
-- [Who Should Use bspwm?](#who-should-use-bspwm?)
+- [Who Should Use bspwm?](#who-should-use-bspwm)
+- [Issues](#issues)
 
 ## What Is It?
 
@@ -42,3 +43,16 @@ Many tiling window manager users like to have very specific workflow. The browse
 - They are also suited for big screens, because they save time you would otherwise use moving windows around.
 - In particular *bspwm* is suited for people who like tweak and tinker with stuff. You won't be getting an out of the box experience, but you'll be making things work just the way you like them.
 - Also, it is quite light. It works very smoothly even on older hardware, and won't cause suicidal feelings if you run it on a Raspberry Pi. I think.
+
+---
+## Issues
+
+Please feel free to create an issue if you find any of the following in the above document:
+
+- Out-of-date information.
+- Erroneous information.
+- Bad formatting, such as broken/nonfunctional links or missing italics.
+- Grammar.
+
+Just make sure to check if there is an existing issue open concerning the error you found before creating a new one!
+
