@@ -17,9 +17,9 @@ I found this awesome (not to be confused with [awesome](https://github.com/aweso
 
 ## What Is It?
 
-*bspwm* (binary space partitioning window manager) is fairly young window manager, and in active development. Like *openbox*, it can be used with desktop environment like *xfce* or *lxqt*, or on its own. It is particularly suited for people who don't have workflow set in stone.
+*bspwm* (binary space partitioning window manager) is a fairly young window manager, and in active development. Like *openbox*, it can be used with a desktop environment like *xfce* or *lxqt*, or on its own. It is particularly suited for people who don't have a workflow set in stone.
 
-It may not be the lightest nor the most stable window manager out there, but it makes up for it with ease of use and powerful features. That is not to say that it is heavy or unstable. I think it is lighter than *openbox*, just not as tiny and minimalistic as *dwm* or *monsterwm* or as unshakable as *xmonad*.
+It may not be the lightest or the most stable window manager out there, but it makes up for it with ease of use and powerful features. That is not to say that it is heavy or unstable. I think it is lighter than *openbox*, just not as tiny and minimalistic as *dwm* or *monsterwm* or as unshakable as *xmonad*.
 
 *bspwm* is easy to configure, but tricky to setup if you don't know what you are doing. To remedy this, I wrote this little guide to help.
 
@@ -27,11 +27,11 @@ It may not be the lightest nor the most stable window manager out there, but it 
 
 Watch this screencast to understand: https://github.com/windelicato/dotfiles/blob/master/why_bspwm.gif
 
-*bspwm* is easy to configure, but tricky to setup if you don't know what you are doing. To remedy this, I (Chrysostomus) wrote this little guide to help. Like *herbstluftwm*, *bspwm* is driven with terminal commands that can be bound to hotkeys. Also like *herbstluftwm*, the configuration file is just an autostart file that runs commands for setting rules.
+*bspwm* is easy to configure, but tricky to setup if you don't know what you're doing. Like *herbstluftwm*, *bspwm* is driven with terminal commands that can be bound to hotkeys. Also like *herbstluftwm*, the configuration file is just an autostart file that runs commands for setting rules.
 
-*bspwm* is a tiling window manager like *dwm*, *awesome*, *i3* or *xmonad*. This means that windows do not usually overlap with each other. Instead, all the available space on screen is automatically divided between them. This saves time and ensures that screen real estate is used efficiently. *bspwm* can also float windows. Unlike *dwm* or *xmonad*, you can move windows with mouse without making them floating. Unlike *awesome wm*, you can have tiled and floating windows in same workspace. Otherwise mouse controls are quite close to *awesome wm*.
+*bspwm* is a tiling window manager like *dwm*, *awesome*, *i3*, or *xmonad*. This means that windows do not usually overlap each other. Instead, all the available space on-screen is automatically divided among them. This saves time and ensures that screen real estate is used efficiently. *bspwm* can also float windows. Unlike *dwm* or *xmonad*, you can move windows with a mouse without making them floating. Unlike *awesome wm*, you can have tiled and floating windows in same workspace; otherwise, mouse controls are quite close to *awesome wm*.
 
-*bspwm* features a combination of automatic tiling (like *awesome*, *dwm* and *xmonad*) and manual tiling (like *herbstluftwm*, *musca* and *i3*). When you open a new window, one of the existing windows is divided in half (or whatever splitting ratio you have set) to make room for the new window. There are no predefined layouts. Open more windows, and they form a spiral. However, you can manually choose where the new window is created, or split existing window and move another window to the split.
+*bspwm* features a combination of automatic tiling (like *awesome*, *dwm*, and *xmonad*) and manual tiling (like *herbstluftwm*, *musca*, and *i3*). When you open a new window, one of the existing windows is divided in half (or whatever splitting ratio you have set) to make room for the new window. There are no predefined layouts. Open more windows, and they form a spiral. However, you can manually choose where the new window is created, or split an existing window and move another window to the split.
 
 Tiling window managers require you to use workspaces or tags actively, since everything is usually visible and not minimized. Moving things between them is usually easier than in most stacking window managers. You can add and delete workspaces and give them names. You can also make windows 'sticky', which means they are visible in all workspaces.
 
