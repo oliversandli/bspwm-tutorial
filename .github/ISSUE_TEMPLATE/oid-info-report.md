@@ -1,6 +1,6 @@
 ---
 name: OId Info report
-about: Create a report to help us improve
+about: Report outdated information
 title: Old Information
 labels: old info
 assignees: oliversandli
