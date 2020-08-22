@@ -13,6 +13,7 @@ I found this awesome (not to be confused with [awesome](https://github.com/aweso
 - [What Is It?](#what-is-it)
 - [Features](#features)
 - [Who Should Use bspwm?](#who-should-use-bspwm)
+- [Who Should Steer Clear of bspwm?](#who-should-steer-clear-of-bspwm)
 - [Issues](#issues)
 
 ## What Is It?
@@ -45,6 +46,13 @@ Many tiling window manager users like to have a very specific workflow. The brow
 - Tiling wm's are also suited for big screens, because they save time you would otherwise use moving windows around.
 - In particular *bspwm* is suited for people who like tweak and tinker with stuff. You won't be getting an out of the box experience, but you'll be making things work just the way you like them.
 - Also, *bspwm* is quite light. It works very smoothly even on older hardware, and won't cause suicidal feelings if you run it on a Raspberry Pi. (I think.)
+
+## Who Should Steer Clear of bspwm?
+
+- The learning curve can be harsh if you are only used to running a full desktop environment. So if you dislike learning new stuff, *bspwm* is probably not for you.
+- *bspwm* sometimes crashes if you have too many floating dialog windows open (for example, when editing colors of *lxterminal* or searching stuff with *geany* or extracting `.tar` files with *fileroller*). This can be a deal breaker for some people if they rarely save their open documents. 
+- Plugging in additional monitors or projectors requires some manual intervention or scripting. So if you are giving lectures often in varying locations, be aware that that can be more cumbersome with *bspwm* (you will need to run two commands from the command line, or a pre-configured script). 
+- If you dislike building stuff yourself and want things to just work, *bspwm* might not be your cup of tea.
 
 ---
 ## Issues
