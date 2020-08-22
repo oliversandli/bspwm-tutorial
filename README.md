@@ -39,22 +39,31 @@ Tiling window managers require you to use workspaces or tags actively, since eve
 
 ## Who Should Use bspwm?
 
-Many tiling window manager users like to have very specific workflow. The browser always goes to the "web" workspace and so on. While this is also possible with *bspwm*, its combination of manual and automatic tiling make it suited for an unplanned or irregular workflow. Windows just go to a reasonable place, and adjusting things is intuitive.
+Many tiling window manager users like to have a very specific workflow. The browser always goes to the "web" workspace and so on. While this is also possible with *bspwm*, its combination of manual and automatic tiling makes it suited for an unplanned or irregular workflow. Windows just go to a reasonable place, and adjusting things is intuitive.
 
-- Tiling wms are good match for small screens, because all screen real estate is used efficiently and managing maximized windows is simple.
-- They are also suited for big screens, because they save time you would otherwise use moving windows around.
+- Tiling wm's are a good match for small screens, because all screen real estate is used efficiently and managing maximized windows is simple.
+- Tiling wm's are also suited for big screens, because they save time you would otherwise use moving windows around.
 - In particular *bspwm* is suited for people who like tweak and tinker with stuff. You won't be getting an out of the box experience, but you'll be making things work just the way you like them.
-- Also, it is quite light. It works very smoothly even on older hardware, and won't cause suicidal feelings if you run it on a Raspberry Pi. I think.
+- Also, *bspwm* is quite light. It works very smoothly even on older hardware, and won't cause suicidal feelings if you run it on a Raspberry Pi. (I think.)
 
 ---
 ## Issues
 
+### Errors
+
 Please feel free to create an issue if you find any of the following in the above document:
 
-- Out-of-date information.
-- Erroneous information.
-- Bad formatting, such as broken/nonfunctional links or missing italics.
-- Grammar.
+| Type | Issue Label |
+| ---- | ----------- |
+| Out-of-date information | `old info` |
+| Erroneous information | `incorrect info` |
+| Bad formatting[^1] | `formatting` |
+| Grammar | `grammar` |
+
+[^1]: Such as: broken/nonfunctional links, missing italics, etc.
 
 Just make sure to check if there is an existing issue open concerning the error you found before creating a new one!
 
+### Adding More Info
+
+If you think that some information should be added to this tutorial, just create an `Additional Information` issue.
